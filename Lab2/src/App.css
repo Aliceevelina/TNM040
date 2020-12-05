@@ -1,0 +1,126 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.LeftSide {
+  padding-right: 90px;
+}
+
+.RightSide {
+  padding-left: 90px;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+.SearchBar {
+text-align: center;
+
+border-bottom: outset;
+border-top: outset;
+
+height: 55px;
+
+background-color: #9fc4c6;
+border-color: #8fbbbc;
+
+box-shadow: 0px 3px 5px grey;
+}
+
+input[type="text"] {
+    height: 60px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CountryInfo {
+text-align: left;
+}
+
+.Country { 
+font-weight: bold;
+}
+
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #ddeff0;
+  color: #759c9e;
+}
+
+.Bars {
+height: 10px;
+
+border-bottom: outset;
+border-top: outset;
+border-right: outset;
+
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+background-color: #9fc4c6;
+border-color: #8fbbbc;
+
+box-shadow: 0px 3px 5px grey;
+}
+
+.info{
+font-style: italic;
+color: gray;
+}
